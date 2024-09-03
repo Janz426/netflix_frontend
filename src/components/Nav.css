@@ -1,0 +1,33 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+}
+
+.nav-logo {
+    position: fixed;
+    left: 20px;
+    width: 9%;
+    object-fit: contain;
+}
+
+.nav-avatar {
+    position: fixed;
+    right: 20px;
+    width: 4%;
+    object-fit: contain;
+}
+
+.nav-username {
+
+    height: 100px;
+    position: fixed;
+    right: 85px;
+    width: 5%;
+    object-fit: contain;
+    font-size:18px;
+}
